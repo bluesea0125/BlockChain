@@ -7,12 +7,11 @@
       CryptoGraphy
       Solution: Impossible To Control Mining When It's Open Source Based.
                 If Not, Hundreds Of Developers Won't Struggle To Boost the ASIC Resistancy Of PoW.
-                Maybe To Enhance ASIC Resistance Is One & Only Option.
+                Maybe To Enhance ASIC Resistance Is One & Only Choice.
                 USB Encryption Solution Won't Go With Open Source Based Solution.
     - Speed
-      PoW + PBFT
-      PoS(PoA, PoC,...)
-      Sharding
+      Less Calculation: PBFT, PoS(PoA, PoC,...), Delegated,...
+      Distribution: Sharding
 ### Development Ecosystem
     - Role Model - Ethereum Developers 
       Look, Listen & Learn
@@ -56,7 +55,8 @@
       Test: Finished
 ### Development Consensus
     - Make A SMART Project
-      Specific Scope & Goal
+      Specify Scope & Goal
+      Make Clear The Possible & The Impossible At Present
     - Follow The Plan, Be Punctual
     - Tesing, Understanding, Designing Before Coding
       Do Not Jump To Coding Without Fully-Understanding & Specific Design.
