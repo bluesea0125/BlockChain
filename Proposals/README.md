@@ -28,7 +28,7 @@
     - Now ~ 2019.6
       Release: Stable Version of PoW + PBFT
       Understanding & Resolving Security Problems: Understanding Security Leaks & Leak-Proof Design
-                                                   Development Of Alert & Emergency
+                                                   Development Of Alert & Emergency System
     - 2019.6 ~ 2019.12
       Focus: PoS, PoA, PoC, Sharding...
     - 2020 ~
