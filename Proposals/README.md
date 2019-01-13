@@ -17,7 +17,7 @@
     - GitHub Corporation Account
       Though Issues Tab, Immediate Communication Over Problems Is Possible
                          Between Testing Member & Developers or Between Developers
-    - Dockers, Cloud
+    - Docker & Cloud
       Dockers: Maybe Dockers Could be Perfect for StandAlone-Testing
                However, Docker & VM Based Testing Is Less Trustable
                It's Far From Real Network. No Delay, No Flaws
