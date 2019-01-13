@@ -1,4 +1,4 @@
-# Pow + PBFT
+# PoW + PBFT
 ### Secure & Fast
     - Security - Stable, Consistent
       Fork-Proof
