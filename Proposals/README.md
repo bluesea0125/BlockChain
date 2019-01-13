@@ -17,8 +17,14 @@
 # ESTIMATION
 ### PoW + PBFT Expectation
     - TPS
+      2000+
+      The Number Of Peers,
+      Geographic Distribution,
+      The Number Of Committee Members
     - Mining
+      Random-Based
       Difficult Modeling
+      
     - Consistency
 ### MileStones
     - Now ~ 2019.6
@@ -45,7 +51,14 @@
       Development & Test: Development Finished
     - April(+ May?)
       Test: Finished
-      
+### Time Consumption
+    Reading Paper- 5%
+    Analyzing Code - 15%
+    Observation(Code & Log While Executed) -25%
+    Designing & Prototyping - 15%
+    Developing - 20% 
+    Testing - 20%
+    
 # MANAGEMENT
 ### Development Ecosystem
     - Role Model - Ethereum Developers 
