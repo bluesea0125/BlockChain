@@ -40,7 +40,8 @@
                         TrueChain(PBFT), Ethereum(Ethash, ProgPoW),
                         Cryptography, Authentication
                         PoW, PoS, PBFT, Delegated X, ...
-      BlockChain Ecosystem: Public Chain, Private Chain, Wallet, Explorer, Virtual Machine, Token, Mining Pool, Applications
+      BlockChain Ecosystem: Public Chain, Private Chain, Wallet, Explorer,
+                            Virtual Machine, Token, Mining Pool, Applications
       Design: Design Finished, ProtoType Code Finished                 
       Development: Low Level Try. The Goal is to  & Publish ProtoType
     - March
