@@ -46,7 +46,7 @@
       BlockChain Ecosystem: Public Chain, Private Chain, Wallet, Explorer,
                             Virtual Machine, Token, Mining Pool, Applications
       Design: Design Finished, ProtoType Code Finished                 
-      Development: Low Level Try. The Goal is to  & Publish ProtoType
+      Development: Low Level Try. The Goal is to Deep-Understand  & Publish ProtoType
     - March
       Development & Test: Development Finished
     - April(+ May?)
