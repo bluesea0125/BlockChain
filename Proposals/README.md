@@ -21,7 +21,7 @@
       Dockers: Maybe Dockers Could be Perfect for StandAlone-Testing
                However, Docker & VM Based Testing Is Less Trustable
                It's Far From Real Network. No Delay, No Flaws
-      Cloud: Geographics Problem Testing
+      Cloud: Geographics Problem Testing, Pseudo Real-World Simulation Possible
     - Developers
       Now At Most 3 Available
 ### MileStones
