@@ -55,6 +55,7 @@
     - Follow The Plan, Be Punctual
     - Tesing & Understanding Before Coding: Do Not Jump To Coding Without Fully-Understanding
     - Do Not Change The Plan Frequently. This Makes Troubles. After All, We Can't Achieve Anything.
+    - Well Organized Meeting & Discussing: Synchronization Between Developers, Managers, Testing Members.
 ### Risks
     - Bad Job Organization, Bad Job Management
     - Inconfident, Change The Goal in the while
