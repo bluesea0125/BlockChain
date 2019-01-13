@@ -34,6 +34,7 @@
                                                    Development Of Alert & Emergency System
     - 2019.6 ~ 2019.12
       Focus: PoS, PoA, PoC, Sharding...
+      Development: PoS
     - 2020 ~
       Possible To Make Something Truely-New
 ### Plan(Could Be Delayed)
