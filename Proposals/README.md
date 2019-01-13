@@ -10,7 +10,8 @@
                 USB Encryption Solution Won't Go With Open Source Based Solution.
     - Speed
       PoW + PBFT
-      PoS
+      PoS(PoA, PoC,...)
+      Sharding
 ### Development Ecosystem
     - Role Model
       Ethereum Developers
