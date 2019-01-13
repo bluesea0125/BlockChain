@@ -23,7 +23,7 @@
                It's Far From Real Network. No Delay, No Flaws
       Cloud: Geographics Problem Testing, Pseudo Real-World Simulation Possible
     - Developers
-      Now At Most 3 Available
+      At Present, At Most 3 Available
 ### MileStones
     - Now ~ 2019.6
       Release: Stable Version of PoW + PBFT
