@@ -1,6 +1,6 @@
 # PoW + PBFT
 ### Secure & Fast
-    - Security - Stable, Consistent
+    - Security - Stable, Secure, Consistent
       Fork-Proof
       ASIC Resistance
       Aggresive Mining
