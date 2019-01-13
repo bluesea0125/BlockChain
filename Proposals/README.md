@@ -7,6 +7,7 @@
       Solution: Impossible To Control Mining When It's Open Source Based.
                 If Not, Hundreds Of Developers Won't Struggle To Boost the ASIC Resistancy Of PoW.
                 Maybe To Enhance ASIC Resistance Is One & Only Option.
+                USB Encryption Solution Won't Go With Open Source Based
     - Speed
       PoW + PBFT
       PoS
