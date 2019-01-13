@@ -12,6 +12,8 @@
       PoW + PBFT
       PoS
 ### Development Ecosystem
+    - Role Model
+      Ethereum Developers
     - EIP
       Inspiration, Problems, Thoughts Are Sharable.
     - GitHub Corporation Account
