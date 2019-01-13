@@ -1,5 +1,8 @@
-# SECURE, FAST & TURING-COMPLETE
-# DESIGN
+# DESIGN: SECURE, FAST & TURING-COMPLETE
+### KEY CHARACTERISTICS
+    Transparent
+    Immutable
+    No 3rd Party
 ### CONSENSUS
     SECURE      FAST
     PoW         PBFT
