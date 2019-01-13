@@ -32,7 +32,7 @@
     - 2019.6 ~ 2019.12
       Focus: PoS, PoA, PoC, Sharding...
     - 2020 ~
-      Possible To Make Something Totally New
+      Possible To Make Something Truely-New
 ### Plan(Could Be Delayed)
     - January, February
       Deep Analysis + : Including Making It Run & Code Analysis, Log Analysis
