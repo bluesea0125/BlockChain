@@ -15,7 +15,8 @@
     - EIP
       Inspiration, Problems, Thoughts Are Sharable.
     - GitHub Corporation Account
-      Though Issues Tab, Immediate Communication Over Problems Between Testing Member 7 Developers or Between Developers
+      Though Issues Tab, Immediate Communication Over Problems Is Possible
+                         Between Testing Member & Developers or Between Developers
     - Dockers, Cloud
       Dockers: Maybe Dockers Could be Perfect for StandAlone-Testing
                However, Docker & VM Based Testing Is Less Trustable
