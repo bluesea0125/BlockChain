@@ -8,8 +8,7 @@
       Solution: Impossible To Control Mining When Based On Open Source & PoW.
                 If Not, Hundreds Of Developers Won't Struggle To Boost the ASIC Resistancy Of PoW.
                 Maybe To Enhance ASIC Resistance Is One & Only Choice.
-                The Another Possible Option Is to Restrict The
-                USB Encryption Solution Won't Go With Open Source Based Solution.
+                The Another Possible Option Is to Use BootNode.
     - Speed
       Less Calculation: PBFT, PoS(PoA, PoC,...), Delegated,...
       Distribution: Sharding
