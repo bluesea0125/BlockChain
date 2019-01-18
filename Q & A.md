@@ -10,3 +10,6 @@
       >
 ### WHEN CONFIRMED
     - 
+### WHEN TX BROADCASTED?
+    - WHAT TxMsg?
+      > privatekey
