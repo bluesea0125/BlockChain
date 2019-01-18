@@ -9,4 +9,5 @@
     Mining: Speed - FastBlock, Fruit, SnailBlock, Confirmation Time, TPS,...
             Consistency,
             Fork
+    Performance: 
 ### ANALYSIS
