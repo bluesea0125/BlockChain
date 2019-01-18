@@ -4,10 +4,9 @@
     the Number of BootNodes
     the Number of Committee Members
     the Number of Transactions
-    Geographical
+    Geographical Change
 ### OBSERVATION
-    Fork
-    Mining: Consistency,
-            
-            TPS,...
+    Mining: Speed - FastBlock, Fruit, SnailBlock, Confirmation Time, TPS,...
+            Consistency,
+            Fork
 ### ANALYSIS
