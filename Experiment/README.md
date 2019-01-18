@@ -1,7 +1,9 @@
 # PLAN
-### Variables
+### VARIABLES
     the Number of Nodes
     the Committee Size
     Geographical
-### Target
+### OBSERVATION
     Fork
+    Mining: Consistency, TPS, ...
+### 
