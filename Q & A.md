@@ -8,3 +8,5 @@
 ### WHEN REWARDED
     - WHAT IS REWARD CONDITION?
       >
+### WHEN CONFIRMED
+    - 
