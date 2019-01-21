@@ -1,15 +1,21 @@
-### WHEN GENESIS BLOCK CREATED
-    - HOW CREATED?
+# MINING ISSUES
+### GENESIS - 
+    - CREATE
       > FROM GENESIS.JSON: geth init genesis.json
       > FROM SOURCE CODE[core/genesis.go]: geth console
-    - HOW ALLOC ACCOUNT HANDLED? WHY YOU CAN CHECK THE AMOUNT?
-      > reflected into statedb?
-    - 
-### WHEN REWARDED
-    - WHAT IS REWARD CONDITION?
-      >
-### WHEN CONFIRMED
-    - 
-### WHEN TX BROADCASTED?
-    - WHAT TxMsg?
-      > privatekey
+    - ALLOC ACCOUNT
+      > reflected into genesis block, reflected into statedb?
+### MINING CYLCE - TX COLLECT, TX SORT, TX VALIDATE, BLK CREATE, BLK VALIDATE, BLK BROADCAST, BLK CONFIRM
+### TX CYCLE - SIGNED, BROADCASTED, VALIDATED, CONFIRMED?
+    - SIGNED?
+      > txmsg = txdata(sender, receiver, amount, time, ...) + sign
+    - WHAT SIGN IS?
+      > sign = privatekey + secretkey + txhash(based on tx time and/or tx data)
+    - VALIDATED?
+      > sign + publickey?
+      > publickey in statedb
+    - CONFIRMED? 
+      > "tx confirmed" is "block confirmed"     
+### STATEDB: 
+# SECURITY ISSUES
+### 
