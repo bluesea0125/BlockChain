@@ -1,8 +1,8 @@
 # Secure, Fast & Turing-Complete
 ### Possible Security Issues
-   * [x] Fake TX : Generate & BroadCast
-   * Fake Block: Generate & BroadCast
-   * Private Key: 
-   * Reward: Manipulated
-   * Source Code: Modify & Affect
+   * [ ] Fake TX : Generate & BroadCast
+   * [x] Fake Block: Generate & BroadCast
+   * [ ] Private Key: 
+   * [ ] Reward: Manipulated
+   * [x] Source Code: Modify & Affect
 ### 
