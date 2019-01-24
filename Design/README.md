@@ -2,7 +2,7 @@
 ### Possible Security Issues
    * [ ] Fake TX : Generate & BroadCast
    * [x] Fake Block: Generate & BroadCast
-   * [ ] Private Key: 
-   * [ ] Reward: Manipulated
+   * [ ] Private Key: Steal
+   * [ ] Reward: Manipulate
    * [x] Source Code: Modify & Affect
 ### 
