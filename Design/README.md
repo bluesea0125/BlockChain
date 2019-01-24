@@ -1,6 +1,6 @@
 # Secure, Fast & Turing-Complete
 ### Possible Security Issues
-   - Fake TX : Generate & BroadCast
+   * [x] Fake TX : Generate & BroadCast
    * Fake Block: Generate & BroadCast
    * Private Key: 
    * Reward: Manipulated
