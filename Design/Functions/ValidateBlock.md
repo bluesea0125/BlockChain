@@ -1,8 +1,8 @@
 ### PoW-Based
-    1. previous's hash validated
-    2. previous's < timestamp < 2 hours + previous's
-    3. PoW(on blk) Valid?
-    4. TXs Valid?
+    1. previous's hash: exists & valid?
+    2. timestamep: previous's < timestamp < 2 hours + previous's
+    3. PoW(on blk): Valid?
+    4. txs: Valid?
        S[0] from previous
        S[i+1] = APPLY(S[i],TX[i])
        If no errors until S[n], true. Or, false
