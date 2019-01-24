@@ -4,5 +4,5 @@
    * [x] Fake Block: Generate & BroadCast
    * [ ] Private Key: Steal
    * [ ] Reward: Manipulate
-   * [x] Source Code: Modify & Affect
+   * [x] Source Code: Modify & Attack
 ### 
