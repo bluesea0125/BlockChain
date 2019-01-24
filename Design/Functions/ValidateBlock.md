@@ -1,5 +1,5 @@
 # Design Rule
-### Verify PoW
+### Prevent Fake PoW
 ### Prevent Fork
 ### Eliminate Garbage
 ### Healthy BlockChain
