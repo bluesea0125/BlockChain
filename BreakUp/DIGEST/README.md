@@ -19,10 +19,10 @@
     block header: 200 byte
                   timestamp, nonce, previous block hash, root hash of merkle tree over txs
     block: 70 txs
-   Metrics               | Bitcoin  |Ethereum                | TrueChain|Notes
-  -----------------------|:--------:|:----------------------:|:--------:|-----
-  tx per blk             |1500~2000 |   70                   |          | 
-  blk size               |    1M    |                        |          | 
+   Metrics               | Bitcoin  |Ethereum               | TrueChain|Notes
+  -----------------------|:--------:|:---------------------:|:--------:|-----
+  tx per blk             |1500~2000 |   70                  |          | 
+  blk size               |    1M    |                       |          | 
   blk time               |    600s  |   15s                 |          | 
   blk gas limit          |          |1,500,000              |          | avg gas per tx: 21,000
   blk reward             | 12.5BTC  |  5ETH+                |          | 
@@ -31,6 +31,8 @@
  blks per hour(discarded)|          | 250 blks              |          |
   uncle counts           |          | 1~2                   |          |
   blk data content       |  tx list |tx list + mrecent state|          |
+  tx data                | blk      |    Merkle Tree        |          |
+  state(UTXO)            | statedb  |   Patricia Tree       |          |
 ### TD
     TD(N) = TD(N-1) + sum of TD(uncles) + D(N)
 ### D
