@@ -1,4 +1,4 @@
-### account
+### Account
     local: private key + secret
     statedb: public key
     tx: sign
@@ -11,13 +11,14 @@
     "mac":"6458c4e37055aa60a5ffd92347345b5500a3c03c2a195d8ea650da6de20ffd5a"},
     "id":"309ccfe5-e1bf-4f62-9847-f76df4340c65",
     "version":3}
-### tx(tranSaction)
+### TX
     tx =  tx data + sign
-### blk(block)
-    Linked List + MultiLayer 
+### Block
+    Linked List + Multi-Level Structure
     Block Hash = Block Header Hash
-    blk header: 200 byte
-                timestamp, nonce, previous blk hash
+    block header: 200 byte
+                  timestamp, nonce, previous block hash, root hash of merkle tree over txs
+    block: 
 ### TD(Total Difficulty)
     TD(N) = TD(N-1) + sum of TD(uncles) + D(N)
 ### D(Difficulty)
