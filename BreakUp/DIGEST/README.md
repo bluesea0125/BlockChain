@@ -14,7 +14,7 @@
 ### TX
     tx =  tx data + sign
 ### Block
-    Linked List + Multi-Level Structure
+    Linked List + Merkle Tree(tx) + Patricia Tree(State)
     Block Hash = Block Header Hash
     block header: 200 byte
                   timestamp, nonce, previous block hash, root hash of merkle tree over txs
@@ -22,9 +22,8 @@
    Metrics               | Bitcoin  |Ethereum               | TrueChain|Notes
   -----------------------|:--------:|:---------------------:|:--------:|-----
   tx per blk             |1500~2000 |   70                  |          | 
-  blk size               |    1M    |                       |          | 
+  blk size               |1MegaByte |  1,500,000 wei        |          | Avg Gas per tx: 21,000
   blk time               |    600s  |   15s                 |          | 
-  blk gas limit          |          |1,500,000              |          | avg gas per tx: 21,000
   blk reward             | 12.5BTC  |  5ETH+                |          | 
   confirm time           | 6 blks   |                       |          | 
   blks per hour(total)   | 6 blks   | 250 blks              |          |
@@ -33,6 +32,7 @@
   blk data content       |  tx list |tx list + mrecent state|          |
   tx data                | blk      | blk - Merkle Tree     |          |
   state(UTXO)            | statedb  | blk - Patricia Tree   |          |
+  execute/validate       | All Nodes| All Nodes             |          |
 ### TD
     TD(N) = TD(N-1) + sum of TD(uncles) + D(N)
 ### D
