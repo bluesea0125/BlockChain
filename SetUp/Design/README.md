@@ -10,7 +10,7 @@
         - Defense: 
       * Fake TX: 
         - Attack: Modify Block Content-tx data
-        - Defense: 
+        - Defense: Merkle Tree Based Multi-Level Structure.
    * [ ] Fake BlockChain: Generate & BroadCast
       * 51% Attack
    * [ ] BootNode: DDOS
