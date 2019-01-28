@@ -16,6 +16,8 @@
 ### blk(block)
     Linked List + MultiLayer 
     Block Hash = Block Header Hash
+    blk header: 200 byte
+                timestamp, nonce, previous blk hash
 ### TD(Total Difficulty)
     TD(N) = TD(N-1) + sum of TD(uncles) + D(N)
 ### D(Difficulty)
