@@ -31,8 +31,8 @@
  blks per hour(discarded)|          | 250 blks              |          |
   uncle counts           |          | 1~2                   |          |
   blk data content       |  tx list |tx list + mrecent state|          |
-  tx data                | blk      |    Merkle Tree        |          |
-  state(UTXO)            | statedb  |   Patricia Tree       |          |
+  tx data                | blk      | blk - Merkle Tree     |          |
+  state(UTXO)            | statedb  | blk - Patricia Tree   |          |
 ### TD
     TD(N) = TD(N-1) + sum of TD(uncles) + D(N)
 ### D
