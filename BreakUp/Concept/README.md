@@ -4,4 +4,8 @@
 ### Turing-Complete
 # 
 ### RLP
+### Merkle Tree
+   * Block: Multi-Level Structure
+   * Pros: Scalability, Enable to Download From Multi-Nodes
+   * Cons: 
 ### Pactrica Trie
