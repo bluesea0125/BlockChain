@@ -1,8 +1,8 @@
-# Secure, Fast & Turing-Complete
-### Secure: 
-   * Consistent,
-   * Stable,
-   * Secure
-### Fast: 
-   * 
-### Turing-Complete: 
+# SECURE, FAST & TURING-COMPLETE
+### SECURE: 
+   * CONSISTENT,
+   * STABLE,
+   * SECURE
+### FaFASTst: 
+   * FEW
+### TURING-COMPLETE: 
