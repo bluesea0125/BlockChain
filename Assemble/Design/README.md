@@ -1,12 +1,19 @@
 # Secure, Fast & Turing-Complete
 ### Possible Security Issues
-   * [ ] fake tx : Generate & BroadCast
-   * [x] fake blk: Generate & BroadCast
-      * fake PoW: Find Right Nonce Quickly
-      * fake tx: 
-   * [ ] fake BlockChain: Generate & BroadCast
-   * [ ] private key: Steal
-   * [ ] reward: Manipulate
-   * [x] source code: Modify & Attack
-   * [x] block time: 15s?
+   * [ ] Fake TX : Generate & BroadCast
+      * Private Key: 
+        - Attack: Cracking Sign while Mining to Retrieve Sign-Generating Logic
+        - Defense: 
+   * [x] Fake Block: Generate, BroadCast, Replace
+      * Fake PoW: 
+        - Attack: Find Right Nonce Quickly
+        - Defense: 
+      * Fake TX: 
+        - Attack: Modify Block Content-tx data
+        - Defense: 
+   * [ ] Fake BlockChain: Generate & BroadCast
+   * [ ] Private Key: Steal
+   * [ ] Reward: Manipulate
+   * [x] Source Code: Modify & Attack
+   * [x] Block Time: 15s?
 ### 
