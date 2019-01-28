@@ -28,7 +28,7 @@
   blk reward             | 12.5BTC  |  5ETH+  |          | 
   confirm time           | 6 blks   |         |          | 
   blks per hour(total)   | 6 blks   | 250 blks|          |
- blks per hour(discarded)| 6 blks   | 250 blks|          |
+ blks per hour(discarded)|          | 250 blks|          |
   uncle counts           |          | 1~2     |          |
 ### TD
     TD(N) = TD(N-1) + sum of TD(uncles) + D(N)
