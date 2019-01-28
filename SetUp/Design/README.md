@@ -12,8 +12,12 @@
         - Attack: Modify Block Content-tx data
         - Defense: 
    * [ ] Fake BlockChain: Generate & BroadCast
+      * 51% Attack
    * [ ] Private Key: Steal
    * [ ] Reward: Manipulate
+   * [x] Contract: 
+      * DAO
+      * Secure Math
    * [x] Source Code: Modify & Attack
    * [x] Block Time: 15s?
 ### 
