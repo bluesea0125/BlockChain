@@ -19,11 +19,14 @@
     block header: 200 byte
                   timestamp, nonce, previous block hash, root hash of merkle tree over txs
     block: 70 txs
-   Metrics   | Bitcoin  |Ethereum | TrueChain|Notes
-  -----------|:--------:|:-------:|:--------:|-----
-  tx per blk |1500~2000 |   70    |          | ethereum block gas limit is 1.5m
-  blk size   |    1M    |         |          | 
-  blk time   |    60s   |   15s   |          | 
+   Metrics     | Bitcoin  |Ethereum | TrueChain|Notes
+  -------------|:--------:|:-------:|:--------:|-----
+  tx per blk   |1500~2000 |   70    |          | 
+  blk size     |    1M    |         |          | 
+  blk time     |    600s  |   15s   |          | 
+  blk gas limit|          |1,500,000|          | avg gas per tx: 21,000
+  blk reward   | 12.5BTC  |  5ETH+  |          | 
+  confirm time | 6 blks   |         |          | 
     
 ### TD
     TD(N) = TD(N-1) + sum of TD(uncles) + D(N)
