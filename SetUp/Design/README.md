@@ -13,6 +13,7 @@
         - Defense: 
    * [ ] Fake BlockChain: Generate & BroadCast
       * 51% Attack
+   * [ ] BootNode: DDOS
    * [ ] Private Key: Steal
    * [ ] Reward: Manipulate
    * [x] Contract: 
