@@ -33,6 +33,9 @@
   tx data                | blk      | blk - Merkle Tree     |          |
   state(UTXO)            | statedb  | blk - Patricia Tree   |          |
   execute/validate       | All Nodes| All Nodes             |          |
+  
+### StateDB
+  ![know](https://i.stack.imgur.com/QpcFh.png)
 ### TD
     TD(N) = TD(N-1) + sum of TD(uncles) + D(N)
 ### D
