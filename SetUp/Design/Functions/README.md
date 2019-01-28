@@ -1,6 +1,7 @@
 # Functions
 ### CreateAccount
 ### CreateTransaction
+### CreateSign
 ### ValidateTransaction
 ### MineBlock + Reward
 ### ValidateBlock
