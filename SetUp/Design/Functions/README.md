@@ -1,17 +1,17 @@
 # Functions
-### CreateAccount
-### CreateTransaction
-### CreateSign
-### ValidateTransaction
-### MineBlock + Reward
-### ValidateBlock
+### - CreateAccount
+### - CreateTransaction
+### - CreateSign
+### - ValidateTransaction
+### - MineBlock + Reward
+### - ValidateBlock
 # Timing
-### MineRewarded
-### TransactionConfirmed
+### - MineRewarded
+### - TransactionConfirmed
 ### 
 # Modules
-### Broadcast
-### Multicast
-### Download
-### Fetch
-### Garbage Collect
+### - Broadcast
+### - Multicast
+### - Download
+### - Fetch
+### - Garbage Collect
