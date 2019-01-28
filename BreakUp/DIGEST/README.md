@@ -18,7 +18,13 @@
     Block Hash = Block Header Hash
     block header: 200 byte
                   timestamp, nonce, previous block hash, root hash of merkle tree over txs
-    block: 
-### TD(Total Difficulty)
+    block: 70 txs
+   Metrics   | Bitcoin  |Ethereum | TrueChain|Notes
+  -----------|:--------:|:-------:|:--------:|-----
+  tx per blk |1500~2000 |   70    |          | ethereum block gas limit is 1.5m
+  blk size   |    1M    |         |          | 
+  blk time   |    60s   |   15s   |          | 
+    
+### TD
     TD(N) = TD(N-1) + sum of TD(uncles) + D(N)
-### D(Difficulty)
+### D
