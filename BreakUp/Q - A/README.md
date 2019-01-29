@@ -28,8 +28,9 @@
    * substractFeeFromSender
    * payCertainValuePerByteInTransaction
    * sendAmountFromSenderToReceiver or RunContractCodeUntilGasOut
-   * addFeeToMiner
-   * 
+   * ? revertAllButFeePayment & addFeeToMiner if gas out
+   * refundRemainingFeeToSender
+   * addPaidFeeToMiner
    - how to detect reward change?
     * miner reward change > state change > state root hash change > detected
 # MINING ISSUES
