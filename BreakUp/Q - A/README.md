@@ -31,11 +31,21 @@
       >
     - what guarantes 15s block time?
       >
-### GHOST
-   - P:Short Blk Time, S:Uncles
-     * Short Block Time -> High Stale Rates -> Traffic Amplification -> Security Issue: Longest 2 Widest
-     * Fast Confirmation -> Fuzzy2Clear(Hashpower's Influence Over Mining) -> Centralization: Reward 2 Stale
-     * If Blk Propogation Time << Blk TIme, Small Stale Rates or Zero Stale Rates
+### GHOST2Uncles
+    Blk TIme >> Blk Propogation Time :  Small Stale Rates or Zero Stale Rates
+    High Blk Occurance Rate:  Fork, Collision
+   * Short Block Time -> High Stale Rates -> Traffic Amplification -> Security Issue: Longest 2 Widest
+   * Fast Confirmation -> Fuzzy2Clear(Hashpower's Influence Over Mining) -> Centralization: Reward 2 Stale
+    
+    - What if uncles are not rewarded?
+### Uncles
+    U: Uncle, B: The Block
+   * 7 generations
+   * direct child of B's k-th ancester, where 2 <= k <= 7
+   * valid blk header, but not need valid blk
+   * At Most X Uncles for B, At Least 0
+   * B's uncles =/= B's ancesters' uncles
+   * 93.75% for U miner, 3.125% for B miner
 ### STATEDB: 
 # SECURITY ISSUES
 ### 
