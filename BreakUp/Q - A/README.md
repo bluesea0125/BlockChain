@@ -32,8 +32,9 @@
     - what guarantes 15s block time?
       >
 ### GHOST
-   * Short Block Time(Fast Confirmation) -> High Stale Rates -> Traffic Amplification -> Security Issue
-   * 
+   * Short Block Time -> High Stale Rates -> Traffic Amplification -> Security Issue
+   * Fast Confirmation -> Stale Blk Overflow -> Centralization Issue
+   * If Blk Propogation Time << Blk TIme, Small Stale Rates or Zero Stale Rates
 ### STATEDB: 
 # SECURITY ISSUES
 ### 
