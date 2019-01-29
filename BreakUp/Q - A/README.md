@@ -20,19 +20,20 @@
    * data
    * startgas
 ### [Transition](https://github.com/ethereum/wiki/wiki/White-Paper#ethereum-state-transition-function)
-   * format check: well formed values?
-   * sign: valid?
-   * nonce: match?
-   * calcFee(STARTGAS * GASPRICE)
-   * getSenderFromSign
-   * substractFeeFromSender
-   * payCertainValuePerByteInTransaction
-   * sendAmountFromSenderToReceiver or RunContractCodeUntilGasOut
-   * ? revertAllButFeePayment & addFeeToMiner if gas out
-   * refundRemainingFeeToSender
-   * addPaidFeeToMiner
+   - procedure
+     * format check: well formed values?
+     * sign: valid?
+     * nonce: match?
+     * calcFee(STARTGAS * GASPRICE)
+     * getSenderFromSign
+     * substractFeeFromSender
+     * payCertainValuePerByteInTransaction
+     * sendAmountFromSenderToReceiver or RunContractCodeUntilGasOut
+     * ? revertAllButFeePayment & addFeeToMiner if gas out
+     * refundRemainingFeeToSender
+     * addPaidFeeToMiner
    - how to detect reward change?
-    * miner reward change > state change > state root hash change > detected
+     * miner reward change > state change > state root hash change > detected
 # MINING ISSUES
 ### GENESIS
     - CREATE
