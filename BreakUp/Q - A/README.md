@@ -20,7 +20,11 @@
       > "tx confirmed" is "block confirmed"
 ### HASH POWER
     - mining pool?
-      >
+      > Reward(node) = Reward(blk) * hashpower(node)/hashpower(sum of nodes contributed to a blk gened.)
+      > randomly rewarded -> small, but regularly rewared
+      > Avg block generation time on a node: 2 years
+      > ?: PoW work is distributed on several nodes or not?
+      > ?:
     - A mining pool with 30% hashpower?
       >
     - hashpower & hashrate?
