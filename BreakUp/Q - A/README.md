@@ -2,25 +2,36 @@
 ### Account
     2 types: EOA(externally owned accounts), contract account
     20byte length
-    nonce
-    balance
-    contract code
-    storage
+   * nonce
+   * balance
+   * contract code
+   * storage
 ### TranScation
-    receiver
-    sign
-    amount
-    data
-    startgas
-    gasprice
+   * receiver
+   * sign
+   * amount
+   * data
+   * startgas
+   * gasprice
 ### Message
-    sender
-    receiver
-    amount
-    data
-    startgas
-### Transition
-    
+   * sender
+   * receiver
+   * amount
+   * data
+   * startgas
+### [Transition](https://github.com/ethereum/wiki/wiki/White-Paper#ethereum-state-transition-function)
+   * format check: well formed values?
+   * sign: valid?
+   * nonce: match?
+   * calcFee(STARTGAS * GASPRICE)
+   * getSenderFromSign
+   * substractFeeFromSender
+   * payCertainValuePerByteInTransaction
+   * sendAmountFromSenderToReceiver or RunContractCodeUntilGasOut
+   * addFeeToMiner
+   * 
+   - how to detect reward change?
+    * miner reward change > state change > state root hash change > detected
 # MINING ISSUES
 ### GENESIS
     - CREATE
@@ -41,6 +52,8 @@
      * S[i]: valid? > gas limit? where 0 <= i <= n, n: tx counts
      * miner: rewarded
      * Blk Header's Root Hash: = S_Final's StateRoot Hash
+     
+    Q: where contract code is executed?
 ### TX CYCLE
     SIGNED, BROADCASTED, VALIDATED, CONFIRMED?
     - SIGNED?
