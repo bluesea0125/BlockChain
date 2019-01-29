@@ -1,6 +1,26 @@
-# ACCOUNT
-# TRANSACTION
-#
+# STATE
+### Account
+    2 types: EOA(externally owned accounts), contract account
+    20byte length
+    nonce
+    balance
+    contract code
+    storage
+### TranScation
+    receiver
+    sign
+    amount
+    data
+    startgas
+    gasprice
+### Message
+    sender
+    receiver
+    amount
+    data
+    startgas
+### Transition
+    
 # MINING ISSUES
 ### GENESIS
     - CREATE
@@ -13,8 +33,14 @@
    - BLK CREATE
      * fetch random data from the state
      * compute some randomly selected transactions from the last N blocks in the blockchain
-   - BLK VALIDATE
-    
+   - [BLK VALIDATE](https://github.com/ethereum/wiki/wiki/White-Paper#blockchain-and-mining)
+     * Previous Blk: Valid
+     * TimeStamp: < 15 min + Previous Blk's TimeStamp
+     * Blk Number, Difficulty, Tx Root, Uncle Root, GasLimit: Valid
+     * S[0]: = Previous Blk's S_Final
+     * S[i]: valid? > gas limit? where 0 <= i <= n, n: tx counts
+     * miner: rewarded
+     * Blk Header's Root Hash: = S_Final's StateRoot Hash
 ### TX CYCLE
     SIGNED, BROADCASTED, VALIDATED, CONFIRMED?
     - SIGNED?
