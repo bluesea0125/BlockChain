@@ -33,7 +33,8 @@
       >
 ### GHOST
    * Short Block Time -> High Stale Rates -> Traffic Amplification -> Security Issue: Longest 2 Widest
-   * Fast Confirmation -> Fuzzy to Clear(Hashpower's Effect Over Mining) -> Centralization Issue: Reward 2 Stale(7/8 4 Uncles & 1/8 4 Nephew...)
+   * Fast Confirmation -> Fuzzy to Clear(Hashpower's Influence Over Mining) -> Centralization: Reward 2 Stale
+                                                                            (7/8 4 Uncles & 1/8 4 Nephew...)
    * If Blk Propogation Time << Blk TIme, Small Stale Rates or Zero Stale Rates
 ### STATEDB: 
 # SECURITY ISSUES
