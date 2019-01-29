@@ -31,6 +31,9 @@
       >
     - what guarantes 15s block time?
       >
+### GHOST
+   * Short Block Time(Fast Confirmation) -> High Stale Rates -> Traffic Amplification -> Security Issue
+   * 
 ### STATEDB: 
 # SECURITY ISSUES
 ### 
