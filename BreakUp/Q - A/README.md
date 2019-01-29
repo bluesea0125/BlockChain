@@ -32,10 +32,10 @@
     - what guarantes 15s block time?
       >
 ### GHOST
-   * Short Block Time -> High Stale Rates -> Traffic Amplification -> Security Issue: Longest 2 Widest
-   * Fast Confirmation -> Fuzzy to Clear(Hashpower's Influence Over Mining) -> Centralization: Reward 2 Stale
-                                                                            (7/8 4 Uncles & 1/8 4 Nephew...)
-   * If Blk Propogation Time << Blk TIme, Small Stale Rates or Zero Stale Rates
+   - P:Short Blk Time, S:Uncles
+     * Short Block Time -> High Stale Rates -> Traffic Amplification -> Security Issue: Longest 2 Widest
+     * Fast Confirmation -> Fuzzy2Clear(Hashpower's Influence Over Mining) -> Centralization: Reward 2 Stale
+     * If Blk Propogation Time << Blk TIme, Small Stale Rates or Zero Stale Rates
 ### STATEDB: 
 # SECURITY ISSUES
 ### 
