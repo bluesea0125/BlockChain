@@ -34,7 +34,11 @@
   state(UTXO)            | statedb  | blk - Patricia Tree   |          |
   execute/validate       | All Nodes| All Nodes             |          |
   
-### StateDB
+### [StateDB ? StateTree](https://ethereum.github.io/blog/2015/06/26/state-tree-pruning/)
+   * account balance
+   * contract storage
+   * contract code
+   * account nonce
   ![know](https://i.stack.imgur.com/QpcFh.png)
 ### TD
     TD(N) = TD(N-1) + sum of TD(uncles) + D(N)
