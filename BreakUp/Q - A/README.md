@@ -17,7 +17,16 @@
       > sign + publickey?
       > publickey in statedb
     - CONFIRMED? 
-      > "tx confirmed" is "block confirmed"     
+      > "tx confirmed" is "block confirmed"
+### HASH POWER
+    - mining pool?
+      >
+    - A mining pool with 30% hashpower?
+      >
+    - hashpower & hashrate?
+      >
+    - what guarantes 15s block time?
+      >
 ### STATEDB: 
 # SECURITY ISSUES
 ### 
