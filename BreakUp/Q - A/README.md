@@ -1,3 +1,6 @@
+# ACCOUNT
+# TRANSACTION
+#
 # MINING ISSUES
 ### GENESIS
     - CREATE
@@ -7,6 +10,11 @@
       > reflected into genesis block, reflected into statedb?
 ### MINING CYLCE
     TX COLLECT, TX SORT, TX VALIDATE, BLK CREATE, BLK VALIDATE, BLK BROADCAST, BLK CONFIRM
+   - BLK CREATE
+     * fetch random data from the state
+     * compute some randomly selected transactions from the last N blocks in the blockchain
+   - BLK VALIDATE
+    
 ### TX CYCLE
     SIGNED, BROADCASTED, VALIDATED, CONFIRMED?
     - SIGNED?
@@ -50,6 +58,23 @@
     Pros
    * High Security: Miners Do Not Know If Mining Main or Stale.
    *
+### [Centralization](https://github.com/ethereum/wiki/wiki/White-Paper#mining-centralization)
+    ASIC & Mining Pool
+    - ASIC: Decentralization 2 Centralization
+    - Mining Pool
+    Solution: Random Selection-Based(State & Previous N Blks)
+              > Computation: Specific > General, so ASIC Resistant
+              > Full BlockChain Access Required, so 
+### 
 ### STATEDB: 
+# TURING-COMPLETE
+### EVM
+    Turing-Complete: for, if, +, -, *, /, ....
+                     recursive: f(f(...)), contract(contract(...))
+    EVM
+        For: JUMP, JUMPI
+###    
 # SECURITY ISSUES
+### incomplete block publishing attack
+### block reward changing attack
 ### 
