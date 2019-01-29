@@ -21,4 +21,6 @@
       * Secure Math
    * [x] Source Code: Modify & Attack
    * [x] Block Time: 15s?
-### 
+### Attacks Types
+   * traffic amplification attack
+   * 51% attack
