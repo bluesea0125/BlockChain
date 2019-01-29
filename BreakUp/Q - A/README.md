@@ -46,6 +46,10 @@
    * At Most X Uncles for B, At Least 0
    * B's uncles =/= B's ancesters' uncles
    * 93.75% for U miner, 3.125% for B miner
+   
+    Pros
+   * High Security: Miners Do Not Know If Mining Main or Stale.
+   *
 ### STATEDB: 
 # SECURITY ISSUES
 ### 
