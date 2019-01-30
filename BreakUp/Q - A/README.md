@@ -59,7 +59,9 @@
    - TX VALIDATE()
      * sign: valid
      * nonce: valid
-     * 
+     * startgas: < intrinsic gas?
+     * balance: < amount+fee?
+     * blk.gas_limit: < blk.gas_used + tx.startgas?
 ### TX CYCLE
     SIGNED, BROADCASTED, VALIDATED, CONFIRMED?
     - SIGNED?
