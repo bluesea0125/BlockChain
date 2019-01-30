@@ -56,6 +56,10 @@
      * Blk Header's Root Hash: = S_Final's StateRoot Hash
      
     Q: where contract code is executed?
+   - TX VALIDATE()
+     * sign: valid
+     * nonce: valid
+     * 
 ### TX CYCLE
     SIGNED, BROADCASTED, VALIDATED, CONFIRMED?
     - SIGNED?
