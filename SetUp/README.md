@@ -3,6 +3,6 @@
    * CONSISTENT,
    * STABLE,
    * SECURE
-### FaFASTst: 
+### FAST: 
    * FEW
 ### TURING-COMPLETE: 
