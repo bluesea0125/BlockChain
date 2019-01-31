@@ -11,6 +11,7 @@
 ### BlockChain vs. DAG
   - Blockchain is one kind of DATA STRUCTURE, nothing but linked list, nothing but distributed database.
   - Blockchain has inherent flaws - Scalability.
+  - [DAG - blockchain killer](https://www.investinblockchain.com/top-dag-projects/)
 ### New After Defeat All
   - All on the table
   - Read all, understand all, have a big picture Makes New Possible.
