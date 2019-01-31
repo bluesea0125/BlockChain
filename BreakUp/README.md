@@ -2,6 +2,8 @@
 ### BlockChain Objective
   - DAO gives blockchain meaning.
   - Turing-Complete
+  - Control Machines WITHOUT HUMAN INTERVENTION
+  - Control Human Not by Human, by ALGORIHTM
 ### Block Competition
   - When Several Blocks Mined At the Same Time, Which One Wins?
   - Which One Consensused?
@@ -10,7 +12,7 @@
   - Blockchain is one kind of DATA STRUCTURE, nothing but linked list, nothing but distributed database.
   - Blockchain has inherent flaws - Scalability.
 ### New After Defeat All
-  - Read All, Understand All, Feel It As a Single Object,
-  - Then Making New is Possible.
+  - All on the table
+  - Read all, understand all, have a big picture Makes New Possible.
   - DEFEAT ALL. FASTER THAN THE WHOLE ECOSYSTEM.
 ### 
