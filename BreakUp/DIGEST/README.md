@@ -38,19 +38,19 @@
 ### [StateDB ? StateTree](https://ethereum.github.io/blog/2015/06/26/state-tree-pruning/)
 
   ![know](https://i.stack.imgur.com/QpcFh.png)
-   ------------------
-   |    block N     |
-   |    tx Root     |<------ Tx Trie
-   |    state Root  |<------ State Trie <--------- Storage Trie
-   |  receipts Root |<------ Receipts Trie
-   ------------------
-           |
-   ------------------
-   |    block N-1   |
-   |    tx Root     |
-   |    tx Root     |
-   |    tx Root     |
-   ------------------
+    ------------------
+    |    block N     |
+    |    tx Root     |<------ Tx Trie
+    |    state Root  |<------ State Trie <--------- Storage Trie
+    |  receipts Root |<------ Receipts Trie
+    ------------------
+             |
+    ------------------
+    |    block N-1   |
+    |    tx Root     |
+    |    tx Root     |
+    |    tx Root     |
+    ------------------
    
    - permanent data -> tx -> tx trie
    - ephemeral data -> balance -> state trie
