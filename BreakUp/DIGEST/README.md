@@ -52,12 +52,14 @@
     |    tx Root     |
     ------------------
    
-   - permanent data -> tx -> tx trie
-   - ephemeral data -> balance -> state trie
-    * account balance
-    * contract storage
-    * contract code
-    * account nonce
+   Data Type   | Object          | Trie Type
+  -------------|:---------------:|:---------------
+  permanent    | transaction     |   tx trie
+  ephemeral    | account balance |   state trie
+  ephemeral    | account nonce   |   state trie
+  ephemeral    | contract code   |   state trie
+  ephemeral    | contract storage|   state trie
+
 ### TD
     TD(N) = TD(N-1) + sum of TD(uncles) + D(N)
 ### D
