@@ -36,11 +36,28 @@
   execute/validate       | All Nodes| All Nodes             |          |
   
 ### [StateDB ? StateTree](https://ethereum.github.io/blog/2015/06/26/state-tree-pruning/)
-   * account balance
-   * contract storage
-   * contract code
-   * account nonce
+
   ![know](https://i.stack.imgur.com/QpcFh.png)
+   ------------------
+   |    block N     |
+   |    tx Root     |<------ Tx Trie
+   |    state Root  |<------ State Trie <--------- Storage Trie
+   |  receipts Root |<------ Receipts Trie
+   ------------------
+           |
+   ------------------
+   |    block N-1   |
+   |    tx Root     |
+   |    tx Root     |
+   |    tx Root     |
+   ------------------
+   
+   - permanent data -> tx -> tx trie
+   - ephemeral data -> balance -> state trie
+    * account balance
+    * contract storage
+    * contract code
+    * account nonce
 ### TD
     TD(N) = TD(N-1) + sum of TD(uncles) + D(N)
 ### D
