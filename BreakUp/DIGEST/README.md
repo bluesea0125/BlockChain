@@ -65,6 +65,8 @@
  
   - Q: trie is (key,value). got it. how to be treed?
     * A:  
+### DAG
+
 ### TD
     TD(N) = TD(N-1) + sum of TD(uncles) + D(N)
 ### D
