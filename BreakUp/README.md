@@ -4,6 +4,7 @@
   - Turing-Complete
   - Control Machines WITHOUT HUMAN INTERVENTION
   - Control Human Not by Human, by ALGORIHTM
+  - Mass Win, People Win Could be MisBelief in the future.
 ### Block Competition
   - When Several Blocks Mined At the Same Time, Which One Wins?
   - Which One Consensused?
