@@ -4,7 +4,7 @@ No Forever Absolute True. True is Time-Limited Concept.
   - DAO gives blockchain meaning.
   - Turing-Complete
   - Control Machines WITHOUT HUMAN INTERVENTION
-  - Control Human Not by Human, by ALGORIHTM
+  - Control Human Not by Human, by ALGORITHM
   - Mass Win, People Win Could be MisBelief in the future.
 ### Block Competition
   - When Several Blocks Mined At the Same Time, Which One Wins?
