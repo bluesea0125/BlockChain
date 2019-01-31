@@ -1,4 +1,5 @@
 # Questions
+There is No Forever Absolute True. True is Time-Limited Concept.
 ### BlockChain Objective
   - DAO gives blockchain meaning.
   - Turing-Complete
