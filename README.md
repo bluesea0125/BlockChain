@@ -9,5 +9,7 @@
                 PoS, PoA, PoC,...
                 Delegate
                 Sharding
-### 
-    
+### Metrics
+    Block Time
+    TPS
+    Confirmation Blk Count
