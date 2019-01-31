@@ -1,4 +1,4 @@
-# Big Questions
+# Questions
 ### BlockChain Objective
   - DAO gives blockchain meaning.
   - Turing-Complete
