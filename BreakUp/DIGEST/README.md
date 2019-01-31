@@ -1,6 +1,6 @@
 ### Account
-    local: private key + secret
-    statedb: public key
+    local: private key(+ secret)
+    statedb: public key ?
     tx: sign
     {"address":"4e264f45edcf2edd9b0b0b49afb8d800b5ea6eeb",
     "crypto":{
@@ -35,7 +35,7 @@
   state(UTXO)            | statedb  | blk - Patricia Tree   |          |
   execute/validate       | All Nodes| All Nodes             |          |
   
-### [StateDB ? StateTree](https://ethereum.github.io/blog/2015/06/26/state-tree-pruning/)
+### [Tries](https://hackernoon.com/getting-deep-into-ethereum-how-data-is-stored-in-ethereum-e3f669d96033)
 
   ![know](https://i.stack.imgur.com/QpcFh.png)
   
@@ -53,14 +53,18 @@
     |    tx Root     |
     ------------------
    
-   Data Type   | Object          | Trie Type
-  -------------|:---------------:|:---------------
-  permanent    | transaction     |   tx trie
-  ephemeral    | account balance |   state trie
-  ephemeral    | account nonce   |   state trie
-  ephemeral    | contract code   |   state trie
-  ephemeral    | contract storage|   state trie
-
+   Data Type   | key                 | value                | Trie Type       | Existence
+  -------------|:-------------------:|:--------------------:|:--------------:|:---------------
+  permanent    |                     | transaction          |   tx trie      | local(one per block)
+  permanent    |                     | transaction          | receipts trie  | local(one per block)
+  ephemeral    |   addr 160bit ID    | account balance      |   state trie   | global(one and only)
+  ephemeral    |                     | account nonce        |   state trie   | 
+     X         |                     |     code hash        |   state trie   | 
+     X         |                     |    storage root      |   state trie   |
+     X         | keccak 256bit hash  | contract storage root|   storage trie |     
+ 
+  - Q: trie is (key,value). got it. how to be treed?
+    * A:  
 ### TD
     TD(N) = TD(N-1) + sum of TD(uncles) + D(N)
 ### D
