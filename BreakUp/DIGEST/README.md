@@ -38,6 +38,7 @@
 ### [StateDB ? StateTree](https://ethereum.github.io/blog/2015/06/26/state-tree-pruning/)
 
   ![know](https://i.stack.imgur.com/QpcFh.png)
+  
     ------------------
     |    block N     |
     |    tx Root     |<------ Tx Trie
