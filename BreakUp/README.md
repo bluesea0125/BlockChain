@@ -10,7 +10,7 @@
   - Which One Consensused?
   - PoW, PoS, ... is just preparation for CONSENSUS.
 ### BlockChain vs. DAG
-  - Blockchain is one kind of DATA STRUCTURE, nothing but linked list, nothing but distributed database.
+  - Blockchain is one kind of [DATA STRUCTURE](https://www.infoworld.com/article/3257105/big-data/7-essential-technologies-for-a-modern-data-architecture.html), nothing but linked list, nothing but distributed database.
   - Blockchain has inherent flaws - Scalability.
   - [DAG - blockchain killer](https://www.investinblockchain.com/top-dag-projects/)
 ### New After Defeat All
