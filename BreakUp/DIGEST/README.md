@@ -2,7 +2,8 @@
     local: private key + secret
     statedb: public key
     tx: sign
-    {"address":"4e264f45edcf2edd9b0b0b49afb8d800b5ea6eeb","crypto":{
+    {"address":"4e264f45edcf2edd9b0b0b49afb8d800b5ea6eeb",
+    "crypto":{
     "cipher":"aes-128-ctr",
     "ciphertext":"f72922a1930420814ae03eabad825a7c78613797c0da49184dfecee6513a0c2c",
     "cipherparams":{"iv":"a20f292da98632bdc4f52bbdc1852f63"},
