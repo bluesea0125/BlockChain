@@ -53,15 +53,15 @@
     |    tx Root     |
     ------------------
    
-   Data Type   | key                 | value                | Trie Type       | Existence
+   Data Type   | key                 | value                | Trie Type      | Existence
   -------------|:-------------------:|:--------------------:|:--------------:|:---------------
   permanent    |                     | transaction          |   tx trie      | local(one per block)
   permanent    |                     | transaction          | receipts trie  | local(one per block)
   ephemeral    |   addr 160bit ID    | account balance      |   state trie   | global(one and only)
   ephemeral    |                     | account nonce        |   state trie   | 
-     X         |                     |     code hash        |   state trie   | 
-     X         |                     |    storage root      |   state trie   |
-     X         | keccak 256bit hash  | contract storage root|   storage trie |     
+  X            |                     |     code hash        |   state trie   | 
+  X            |                     |    storage root      |   state trie   |
+  X            | keccak 256bit hash  | contract storage root|   storage trie |     
  
   - Q: trie is (key,value). got it. how to be treed?
     * A:  
