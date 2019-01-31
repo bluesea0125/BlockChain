@@ -9,6 +9,8 @@
   - When Several Blocks Mined At the Same Time, Which One Wins?
   - Which One Consensused?
   - PoW, PoS, ... is just preparation for CONSENSUS.
+  - Block BroadCasting/Validating/Propogating Is Next Step of Proof. Also one step of consensus.
+  - Choose Longest/Heaviest is Finalizing Step.
 ### BlockChain vs. DAG
   - Blockchain is one kind of [DATA STRUCTURE](https://www.infoworld.com/article/3257105/big-data/7-essential-technologies-for-a-modern-data-architecture.html), nothing but linked list, nothing but distributed database.
   - Blockchain has inherent flaws - Scalability.
