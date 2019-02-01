@@ -8,9 +8,9 @@
    SECURE    |  FAST
    ----------|:---
    PoW       |  PBFT
-             |  PoS, PoA, PoC,...
-             |  Delegate
-             |  Sharding
+   x         |  PoS, PoA, PoC,...
+   x         |  Delegate
+   x         |  Sharding
 ### Metrics
     Block Time
     TPS
