@@ -4,11 +4,13 @@
    * Immutable
    * No 3rd Party
 ### CONSENSUS
-    SECURE      FAST
-    PoW         PBFT
-                PoS, PoA, PoC,...
-                Delegate
-                Sharding
+
+   SECURE    |  FAST
+   ----------|:---
+   PoW       |  PBFT
+             |  PoS, PoA, PoC,...
+             |  Delegate
+             |  Sharding
 ### Metrics
     Block Time
     TPS
