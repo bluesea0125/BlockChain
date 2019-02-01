@@ -1,5 +1,5 @@
 # DESIGN: SECURE, FAST & TURING-COMPLETE
-### - KEY CHARACTERISTICS
+###  KEY CHARACTERISTICS
    * Transparent
    * Immutable
    * No 3rd Party
