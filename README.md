@@ -12,6 +12,6 @@
    x         |  Delegate
    x         |  Sharding
 ### Metrics
-    Block Time
-    TPS
-    Confirmation Blk Count
+   * [x] Block Time
+   * [x] TPS
+   * [x] Confirmation Blk Count
