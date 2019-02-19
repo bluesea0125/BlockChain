@@ -3,6 +3,7 @@
 ### PoW에서 Nonce찾기가 < Diff인데 즉시에 찾지 못하는 리유
 # Fork
 ### 같은 시각에 N+1의 블록이 여러개 동시에 만들어지는 경우 최종 어느것이 선택되는가?
+### Block Time, Miners, Nodes, Fork사이관계
 # State + VM
 ### block trie와 storage trie
     - block tries
@@ -14,7 +15,7 @@
     - contract실행인 경우(from,to,value)
     - contract실행인 경우(a,b)
     - contract생성인 경우
-### ERC20 TOKEN의 from, to, balance가 어디에 기억되고 어떻게 리용되는가?
+### ERC20 TOKEN의 from, to, balance가 어디에 기억되고 어떻게 리용되는가? 어떻게 처리되는가?
 # Miscellaneous      
 ### 블록체인에서 가장 핵심적인 산법들
 ### bloom은 무엇? 어떻게 리용되는가?
