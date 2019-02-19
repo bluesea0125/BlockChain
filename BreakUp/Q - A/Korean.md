@@ -8,8 +8,9 @@
 ### tx실행시 block과 vm의 작용
     - transfer인 경우
       block의 trie에서 해당 계약과 관련된 hash값을 변화시키면 끝이다.
-    - contract인 경우
-      
+    - contract실행인 경우(from,to,value)
+    - contract실행인 경우(a,b)
+    - contract생성인 경우
 ### block trie와 storage trie
     - block tries
       state trie
