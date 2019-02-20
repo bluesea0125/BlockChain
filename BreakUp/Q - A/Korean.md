@@ -16,6 +16,11 @@
     - contract실행인 경우(a,b)
     - contract생성인 경우
 ### ERC20 TOKEN의 from, to, balance가 어디에 기억되고 어떻게 리용되는가? 어떻게 처리되는가?
+# Contract
+### Contract처리시 State이 리용되는가?
+### 리용된다면 Trie와 어떻게 상호작용하는가?
+### 모든 Contract은 VM을 통하여 실행된다. Contract을 포함하지 않는 Tx는 VM과 무관하다?
+### 
 # Miscellaneous      
 ### 블록체인에서 가장 핵심적인 산법들
 ### bloom은 무엇? 어떻게 리용되는가?
