@@ -1,5 +1,5 @@
 # Questions
-Nothing Absolutely True. True is Time-Limited Concept.
+Nothing4Ever. True is Time-Limited Concept.
 ### BlockChain Objective
   - DAO gives blockchain meaning.
   - Turing-Complete
