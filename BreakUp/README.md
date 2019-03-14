@@ -5,7 +5,7 @@ Nothing4Ever. True is Time-Limited Concept.
   - Turing-Complete
   - Control Machines WITHOUT HUMAN INTERVENTION
   - Control Human Not by Human, by ALGORITHM
-  - Crytocurreny is not the blockchain's end. It's just the start. Don't just take it as digital money. It brings a great possiblility. Remember human society is controlled by currency. It will open new era when everything will be algorithmic-controlled.
+  - Crytocurreny is not the blockchain's end. It's just the start. Don't just take it as digital money. It brings a great possiblility. Remember human society is controlled by currency. It will open a new era when everything will be algorithmic-controlled.
   - Maybe the last winner could not be blockchain. Nevertheless, the world goes there.
   - Mass Win, People Win Could be MisBelief in the future.
 ### Block Competition
