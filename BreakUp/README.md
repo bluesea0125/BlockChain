@@ -17,7 +17,7 @@ Nothing4Ever. True is Time-Limited Concept.
 ### BlockChain vs. DAG
   - Blockchain is one kind of [DATA STRUCTURE](https://www.infoworld.com/article/3257105/big-data/7-essential-technologies-for-a-modern-data-architecture.html), nothing but linked list, nothing but distributed database.
   - Blockchain has inherent flaws - Scalability.
-  - [DAG - blockchain killer](https://www.investinblockchain.com/top-dag-projects/)
+  - [DAG - blockchain KILLER](https://www.investinblockchain.com/top-dag-projects/)
 ### New After Defeat All
   - All on the table
   - Read all, understand all, have a big picture Makes New Possible.
