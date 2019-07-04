@@ -10,6 +10,7 @@ Nothing4Ever. True is Time-Limited Concept.
   - "Mass Win, People Win" Could be turned out to be a kind of Common MISBELIEF in the future.
   - Society->Trust->Contract->BlockChain->Money
   - Human Nature: Hide In Dark, Watch In Bright
+  - Human Likes: No Intervention, Fast & Swift, Simple & Concise, No Misclear, Easy & Convenient, No Complex
   - In Essence, Decentralization Means Liberty From State.
 ### Block Competition
   - When Several Blocks Mined At the Same Time, Which One Wins?
