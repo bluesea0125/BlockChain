@@ -1,5 +1,8 @@
 # Questions
 Nothing4Ever. True is Time-Limited Concept.
+### Basics
+  - **crypto:** 32byte -> 20byte
+  - **linked list**
 ### BlockChain Objective
   - DAO gives blockchain MEANING.
   - Turing-Complete
